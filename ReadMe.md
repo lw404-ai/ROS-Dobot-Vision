@@ -22,25 +22,25 @@
 
 ### 一、摄像头标定方案
 - Camera_Calibration.py：在此文件中我们构建了一组功能和算法，可以通过对摄像头拍摄的图像进行处理和分析，从而得到摄像头的内参和畸变参数，进而实现摄像头的校准
-![Alt text](Appendix\image.png)
+![Alt text](Appendix/image.png)
 
 ### 二、机械臂的坐标校准与给定坐标转换
 - Coordinate_Transformation.py：在摄像头采集图像之后并读取物体中心点坐标，在此程序里进行坐标转换，首先进行坐标映射，转换到坐标纸平面的坐标，最后运用矩阵方程将坐标纸平面坐标换算成机械臂视角的坐标
 - Main.py：获取掩膜，对物块进行分析获取物块的位置信息
-![Alt text](Appendix\image-3.png)
+![Alt text](Appendix/image-3.png)
 
 ### 三、使用ROS框架进行机械臂控制
 - 基于OpenCV进行物块坐标捕获并转换为机械臂坐标
 - 通过ROS框架，编写Python脚本配合C++语言的Dobot-API
 - 实现**全部物块执行码垛到指定点**、**依据物块颜色进行分拣**、**指定物块移动到指定点的目标功能**
-![Alt text](Appendix\image-2.png)
+![Alt text](Appendix/image-2.png)
 
 #### 1.执行全部物块码垛到指定点
-![Alt text](Appendix\image-4.png)
+![Alt text](Appendix/image-4.png)
 #### 2.依据物块颜色进行分拣
-![Alt text](Appendix\image-5.png)
+![Alt text](Appendix/image-5.png)
 #### 3.指定物块移动到指定点的目标功能
-![Alt text](Appendix\image-6.png)
+![Alt text](Appendix/image-6.png)
 
 ### 四、部署代码文件使用说明：
 
