@@ -40,6 +40,7 @@
 
 #### 1.执行全部物块码垛到指定点
 ![Alt text](Appendix/image-4.png)
+
 #### 2.依据物块颜色进行分拣
 ![Alt text](Appendix/image-5.png)
 #### 3.指定物块移动到指定点的目标功能
