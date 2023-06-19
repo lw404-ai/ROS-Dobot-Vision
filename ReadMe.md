@@ -1,6 +1,5 @@
 ### 基于ROS的视觉机械臂系统综合设计与实现
 
-
 ``` powershell
 智能机器人设计与实践
 |-- Calibration_Coordinates.txt   # 储存机械臂校准坐标的文件
@@ -19,6 +18,10 @@
 
 1 directory, 12 files
 ```
+### 说明
+- 基于Systemback制作的配置好此项目的映像链接 - [ISO映像文件](https://www.123pan.com/s/WqsiVv-sPVGh.html/)
+- 于releases中下载dobot_ws.zip与ROS_CV_CODE.zip复制到Ubuntu中并配置好
+- 开源协议 - The [Apache License 2.0](LICENSE)
 
 ### 一、摄像头标定方案
 - Camera_Calibration.py：在此文件中我们构建了一组功能和算法，可以通过对摄像头拍摄的图像进行处理和分析，从而得到摄像头的内参和畸变参数，进而实现摄像头的校准
