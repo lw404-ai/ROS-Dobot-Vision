@@ -5,7 +5,7 @@
 
 
 ``` powershell
-智能机器人设计与实践期末作业
+智能机器人设计与实践
 |-- Calibration_Coordinates.txt   # 储存机械臂校准坐标的文件
 |-- Calibration_Results.npz       # 摄像头标定结果参数的文件
 |-- Camera_Calibration.py         # 摄像头标定的代码文件
@@ -15,10 +15,10 @@
 |-- Target_Coordinates            # 内含物块的机械臂坐标与功能标定
 |-- run.sh                        # 起始运行文件
 |-- ReadMe.md                     # 阅读文档
-`-- 附件
-    |-- 标定板.pdf
-    |-- 大作业任务书.pdf
-    `-- 坐标纸.pdf
+`-- Appendix
+    |-- test.jpg
+    |-- Calibration_board.pdf
+    `-- Coordinate_paper.pdf
 
 1 directory, 12 files
 ```
