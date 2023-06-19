@@ -19,8 +19,8 @@
 1 directory, 12 files
 ```
 ### 项目说明
-- 基于Systemback制作的配置好此项目的映像链接 - [ISO映像文件(默认密码：0)](https://www.123pan.com/s/WqsiVv-sPVGh.html)
-- 手动配置请于releases中下载dobot_ws.zip与ROS_CV_CODE.zip复制到Ubuntu中并配置好
+- 基于*Systemback*制作的配置好此项目的映像链接 - [ISO映像文件(默认密码：0)](https://www.123pan.com/s/WqsiVv-sPVGh.html)
+- 手动配置请于*releases*中下载*dobot_ws.zip*与*ROS_CV_CODE.zip*复制到*Ubuntu*中并配置好
 - 开源协议 - The [Apache License 2.0](LICENSE)
 - 贡献者 -  [Contribute](https://github.com/lw404-ai/ROS-Dobot-Vision/graphs/contributors)
 
